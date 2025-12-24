@@ -34,7 +34,7 @@ server.on('request', (req, res) => {
             userName: "Mohammad",
             password: "101378"
         }))
-    }else{
+    } else {
         res.write("404 Url Not Found .")
         res.end()
     }
